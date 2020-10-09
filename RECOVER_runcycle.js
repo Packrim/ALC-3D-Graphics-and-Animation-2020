@@ -272,8 +272,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/RECOVER_runcycle_atlas_1.png?1602255717203", id:"RECOVER_runcycle_atlas_1"},
-		{src:"images/RECOVER_runcycle_atlas_2.png?1602255717203", id:"RECOVER_runcycle_atlas_2"}
+		{src:"images/RECOVER_runcycle_atlas_1.png?1602256071080", id:"RECOVER_runcycle_atlas_1"},
+		{src:"images/RECOVER_runcycle_atlas_2.png?1602256071080", id:"RECOVER_runcycle_atlas_2"}
 	],
 	preloads: []
 };
