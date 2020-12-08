@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: Anduril.ma
-//Last modified: Fri, Dec 04, 2020 09:23:21 AM
+//Last modified: Fri, Dec 04, 2020 12:45:37 PM
 //Codeset: UTF-8
 requires maya "2019";
 requires "mtoa" "3.1.2";
@@ -15,13 +15,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "46DD5CA7-214E-DDBC-6F29-FABB218DFBAC";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 15.198443378041517 38.031465011182085 8.6994257424564516 ;
-	setAttr ".r" -type "double3" -777.33835219312016 -1727.7999999995066 1.040432950690125e-14 ;
+	setAttr ".t" -type "double3" 10.065116173061467 16.577013166917226 79.616182644504079 ;
+	setAttr ".r" -type "double3" -720.93835219318794 -1793.3999999994774 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "A764FA44-744F-6B36-F85D-AEA89975406F";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 26.960229456270749;
+	setAttr ".coi" 75.877532930003468;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -681,22 +681,22 @@ createNode mesh -n "pCylinderShape2" -p "pCylinder2";
 	setAttr ".bw" 3;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "388381B9-FB4A-5F9E-C007-B7AF84C5411E";
+	rename -uid "F13C11E9-0844-86F5-0612-B5ACE29E8165";
 	setAttr -s 6 ".lnk";
 	setAttr -s 6 ".slnk";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "A8C3101C-D740-FADF-3A73-9F8307932C49";
+	rename -uid "B88B0572-7F47-F23C-AC72-01BA086C3972";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "09FA9253-6D4A-617E-B82C-F485790AD3D7";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "59F78622-9E47-03C2-853F-2ABA41889C1D";
+	rename -uid "E6293AFB-1042-CD1E-2C20-9297F844D61F";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "0F3F2D7D-E544-E00F-49B1-21A3C0DCF4D2";
 	setAttr ".g" yes;
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "CD3DA387-4745-F422-F404-C0966DFA40A0";
+	rename -uid "0FE35250-BF4E-F84B-6B33-2CBC22A42B5E";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "13FD0390-2741-245B-D3E8-C495E9190944";
+	rename -uid "7158ED38-1A4A-C737-EC04-ADBA1E09E266";
 createNode script -n "uiConfigurationScriptNode";
 	rename -uid "3CF5E66E-014D-8413-55C6-89B371284C82";
 	setAttr ".b" -type "string" (
